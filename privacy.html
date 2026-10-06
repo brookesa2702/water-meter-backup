@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Water Meter Backup</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;color:#203039;max-width:760px;margin:60px auto;padding:0 24px;background:#fafcfd}h1,h2{line-height:1.25}h2{font-size:24px;margin-top:32px}a{color:#126789}</style>
+<main>
+<p><a href="index.html">Water Meter Backup</a></p>
+<h1>Privacy policy</h1>
+<p>Last updated: 6 October 2026</p>
+<p>Water Meter Backup is a personal tool operated by the Google account owner to record water consumption and back up readings to that owner's Google Drive.</p>
+<h2>Data used</h2>
+<p>The tool records polling dates and times, water consumption, the meter identifier, fault indicators, and battery voltage. Tuya credentials are used to retrieve meter readings. Google OAuth tokens are used by rclone to upload and update the backup CSV.</p>
+<h2>Google Drive access</h2>
+<p>The tool requests the <code>drive.file</code> permission. This allows it to manage files it creates or files explicitly authorized for this app. The intended use is to create and update <code>water_readings.csv</code> in the owner's My Drive. It does not request unrestricted access to all Drive files.</p>
+<h2>Storage and use</h2>
+<p>Meter readings are stored on the owner's Raspberry Pi and in the owner's Google Drive. Credentials and OAuth tokens are stored locally on the owner's devices; they are not intentionally published to this website. The data is used only for recording water usage and maintaining the owner's backup.</p>
+<h2>Sharing</h2>
+<p>The tool sends authentication requests and receives meter data through Tuya, and sends the backup CSV to Google Drive. It does not sell data, use it for advertising, or intentionally share readings with other people. The owner's Google Drive sharing settings determine who can access the uploaded file.</p>
+<h2>Retention and control</h2>
+<p>Readings remain until the owner deletes them. The owner can stop uploads by disabling the upload schedule, revoke the app's access through their Google Account third-party connections settings, and delete the local and Drive copies. Revoking access does not itself delete existing files. Google Drive trash and version history may retain copies according to Google's settings.</p>
+<h2>This website</h2>
+<p>This informational website contains no meter data, credentials, analytics scripts, or forms. It is hosted on GitHub Pages, whose hosting service may process ordinary request information under GitHub's privacy statement.</p>
+<h2>Contact</h2>
+<p>Questions about this personal tool can be sent to <a href="mailto:brookesajw@gmail.com">brookesajw@gmail.com</a>.</p>
+</main>
+</html>
