@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.csv
+*_details.json
+water_meter_config.json
+alarm_email_config.json
+alarm_email_state.json
+.ssh/
+rclone.conf
+*.pem
+*.key
