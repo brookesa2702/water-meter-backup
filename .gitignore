@@ -7,5 +7,7 @@ alarm_email_config.json
 alarm_email_state.json
 .ssh/
 rclone.conf
+config.json
+water-valve-private/
 *.pem
 *.key
